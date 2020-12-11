@@ -1,0 +1,28 @@
+<div class="card" style="width: 40rem;">
+  <img class="card-img-top" src="assets/img/foodpanda/vorta.jpg" alt="Card image cap">
+
+  <div class="card-body">
+    <input type="hidden" name="" id="" #productCode value="202">
+    <input type="hidden" name="" id="" #productName value="bangladeshi_vorta">
+   <input type="hidden" name="" id="" #productQuantity value="1">
+    <input type="hidden" name="" id="" #productPrice value="100">
+   <input type="hidden" name="" id="" #productPriceTotal value="100">
+
+
+    <h5 class="card-title">Bangladeshi_vorta lunch</h5>
+    <h5 class="card-title">Price: 100 BDT</h5>
+    <p class="card-text">Rice is the main Bangladeshi food. Rice, fish curry, and lentil is the most common traditional
+      Bangladeshi food for general people. Bangladesh is also famous for its desserts. You will find dozens of sweets,
+      rice cakes, rice puddings, and many other desserts in Bangladesh, mostly made from rice and cow milk.</p>
+  </div>
+
+  <div class="cart_buttons">
+    <button type="button" (click)="cartNavigate()" class="button cart_button_clear">Continue
+      Shopping</button>
+    <button type="button"
+      (click)="cartNavigate(productCode,productName,productPrice,productQuantity,productPriceTotal) "
+      class="button cart_button_checkout">Add to Cart</button>
+
+  </div>
+
+</div>

@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "restaurentname": "Swarna's Kitchen",
+      "city": "Dhaka",
+      "address": "Mirpur 2",
+      "postalcode": "8760",
+      "name": "Sumyia Swarna",
+      "contact": "+8801795427876",
+      "email": "sumyiaswarna721@gmail.com",
+      "id": 1
+    },
+    {
+      "restaurentname": "Pita pan",
+      "city": "Dhaka",
+      "address": "Dhanmondi",
+      "postalcode": "1224",
+      "name": "T.M Sorrowar",
+      "contact": "01768157533",
+      "email": "sorrowar98@gmail.com",
+      "id": 2
+    },
+    {
+      "restaurentname": "Siam's Cafe",
+      "city": "cumilla",
+      "address": "cantonment",
+      "postalcode": "9345",
+      "name": "Siam Hossain",
+      "contact": "01765422876",
+      "email": "siam976@gmail.com",
+      "id": 3
+    },
+    {
+      "restaurentname": "Ghorowa Kitchen",
+      "city": "Dhaka",
+      "address": "Mirpur 1",
+      "postalcode": "8760",
+      "name": "Maksuda Khanom",
+      "contact": "01795427876",
+      "email": "maksuda721@gmail.com",
+      "id": 4
+    },
+    {
+      "restaurentname": "Flavours of China",
+      "city": "Khulna",
+      "address": "Forajipara Line",
+      "postalcode": "6590",
+      "name": " Miky Zarom ",
+      "contact": "0186543863",
+      "email": "mikyzarom43@gmail.com",
+      "id": 5
+    },
+    {
+      "restaurentname": "New Dragon",
+      "city": "Barishal",
+      "address": "Sagordi",
+      "postalcode": "3056",
+      "name": "Reshma Begum",
+      "contact": "01986432763",
+      "email": "reshma876@gmail.com",
+      "id": 6
+    },
+    {
+      "restaurentname": "Pita pan",
+      "city": "Dhaka",
+      "address": "south Bashkandi",
+      "postalcode": "7930",
+      "name": "Sumyia Swarna",
+      "contact": "+8801795427876",
+      "email": "sumyiaswarna721@gmail.com",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

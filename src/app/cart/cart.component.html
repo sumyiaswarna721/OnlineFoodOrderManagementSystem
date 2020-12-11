@@ -1,0 +1,41 @@
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-3">
+    <div class="sidebar" style="margin-top: 80px;">
+      <a routerLink="category"><i class=""></i> Category</a>
+      <a routerLink="product"><i class=""></i> Product</a>
+      <a routerLink="restaurent"><i class=""></i> Restaurent</a>
+      <a routerLink="register"><i class=""></i> Register</a>
+      <a routerLink="order"><i class=""></i> Order</a>
+      <a routerLink="payment"><i class=""></i> Payment</a>
+      <a routerLink="checkout"><i class=""></i> Checkout</a>
+
+    </div>
+  </div>
+  <div class="col-md-9">
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" style="margin-top: 80px;">
+        <div class="carousel-item active">
+          <img src="assets/img/foodpanda/hungry.png" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/foodpanda/w644.jpeg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/foodpanda/images.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">FoodPanda!</h4>
+      <p>Food, substance consisting essentially of protein, carbohydrate, fat, and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy. The absorption and utilization of food by the body is fundamental to nutrition and is facilitated by digestion. Plants, which convert solar energy to food by photosynthesis, are the primary food source. Animals that feed on plants often serve as sources of food for other animals. To learn more about the sequence of transfers of matter and energy in the form of food from organism to organism, see food chain.<hr>
+      <p class="mb-0">Eat to live but do not live to eat!</p>
+    </div>
+
+    <router-outlet></router-outlet>
+  </div>
+</div>
+</div>

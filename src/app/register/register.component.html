@@ -1,0 +1,40 @@
+<div class="container-fluid">
+  <div class="row mt-5">
+    <div class="col-10">
+      <h3>Restaurent Owner List</h3>
+      <table class="table table-bordered text-center">
+        <thead class="thead-dark">
+          <tr>
+            <td scope="col">Restaurent Name</td>
+            <td scope="col">City</td>
+            <td scope="col">Address</td>
+            <td scope="col">Postal code</td>
+            <td scope="col">Name</td>
+            <td scope="col">Contact Number</td>
+            <td scope="col">Email</td>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let reg of getOwner">
+                  <td>{{reg.restaurentname}}</td>
+                  <td>{{reg.city}}</td>
+                  <td>{{reg.address}}</td>
+                  <td>{{reg.postalcode}}</td>
+                  <td>{{reg.name}}</td>
+                  <td>{{reg.contact}}</td>
+                  <td>{{reg.email}}</td>
+                
+              </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
+
+
+
+
+

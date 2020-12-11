@@ -1,0 +1,30 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-3">
+
+		</div>
+		<div class="col-6">
+			<h1>Registration</h1>
+			<form #formRegistration="ngForm" >
+				Restaurent Name: <input class="input-group" type="text" name="restaurentname" id="" ngModel><br>
+				City: <input class="input-group" type="text" name="city" id="" ngModel><br>
+				Address: <input class="input-group" type="text" name="address" id="" ngModel><br>
+				Postal code: <input class="input-group" type="text" name="postalcode" id="" ngModel><br>
+				 Name: <input class="input-group" type="text" name="name" id="" ngModel><br>
+				
+				Contact Number: <input class="input-group" type="text" name="contact" id=""
+					ngModel><br>
+				Email: <input class="input-group" type="text" name="email" id="" ngModel><br>
+				
+				<!-- <form action="">
+		  Name :<input class="input-group" type="text" name="" id=""> <br>
+		  Email: <input class="input-group" type="text" name="" id=""><br>
+		  Password: <input class="input-group" type="text" name="" id=""><br>  -->
+		  <button class="btn btn-primary" (click)="registerUser(formRegistration.value)">Submit</button>
+		</form>
+		</div>
+
+		<div class="col-3">
+		</div>
+	</div>
+</div>

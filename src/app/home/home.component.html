@@ -1,0 +1,323 @@
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/icon,logo/foodpanda.png" class="img-fluid" alt="Responsive image" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/varietis/pohela.jpg" class="img-fluid" alt="Responsive image" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/varietis/mexico.jpg" class="img-fluid" alt="Responsive image" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" routerLink="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" routerLink="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- jumbotron start -->
+
+<div class="jumbotron">
+  <h1 class="display-4">It's the food you love, delivered</h1>
+  <p class="lead">List your restaurant on foodpandan.</p>
+  <hr class="my-4">
+  <p>Would you like thousands of new customers to taste your amazing food? So would we!
+    It's simple: we list your menu online, help you process orders, pick them up, and deliver them to hungry pandas - in
+    a heartbeat!
+    Interested? Let's start our partnership today!.</p>
+  <a class="btn btn-primary btn-lg" routerLink="cart" (click)="cartNavigate()"  role="button">Get Started</a>
+</div>
+<!-- jumbotron end -->
+<div class="row no-gutters bg-light position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="assets/img/icon,logo/masterchef.jpg" class="w-100" alt="">
+  </div>
+  <div class="col-md-6 position-static p-4 pl-md-0">
+    <h5 class="mt-0">List your restaurant on foodpanda.</h5>
+    <p>Would you like thousands of new customers to taste your amazing food? So would we!
+      It's simple: we list your menu online, help you process orders, pick them up, and deliver them to hungry pandas -
+      in
+      a heartbeat!</p>
+    <a routerLink="cart" (click)="cartNavigate()"  class="stretched-link">Go somewhere</a>
+  </div>
+</div>
+
+<!-- Card start -->
+
+
+<div class="container">
+  <h2>CitiesFind us in these cities and many more!</h2>
+
+</div>
+
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+  <!--Controls-->
+  <div class="controls-top">
+    <a class="btn-floating" routerLink="#" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+    <a class="btn-floating" routerLink="#" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="cart" data-slide-to="0" class="active"></li>
+    <li data-target="cart" data-slide-to="1"></li>
+
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/dhaka.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Dhaka</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/chittagong.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Chittagong</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/sylhet.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Sylhet</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/coxsBazar.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              CoxsBazar</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/savar.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Savar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/rajshahi.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Rajshahi</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/khulna.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Khulna</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/Dinajpur.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Dinajpur</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/feni.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i> Feni</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/tangail.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Tangail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/norshingdi.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Norshingdi</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top" src="assets/img/devission/mymensingh.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a routerLink="cart" (click)="cartNavigate()" class="cart-btn"><i class="fas fa-shopping-cart"></i>
+              Mymensingh</a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container" style="margin-top: 80px;">
+    <h2>AppPut us in your pocket</h2>
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="image">
+          <img src="assets/img/icon,logo/orderapp.jpeg" class="d-block w-100" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="image">
+          <img src="assets/img/icon,logo/orderapp.jpg" class="d-block w-100" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="image">
+          <img src="assets/img/icon,logo/orderfood.jpeg" class="d-block w-100" alt="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-10">
+      <h4>Order food from the best restaurants with foodpanda Bangladesh</h4>
+      <p>Are you hungry? Did you have a long and stressful day?Interested in getting a cheesy pizza delivered to your
+        home or office? Then foodpanda Bangladesh is the right destination for you! foodpanda offers you a long and
+        detailed list of the best restaurants and local favourites near you to help satisfy your hunger through our
+        online food delivery service. Cuisines are diverse: whether you fancy a juicy burger from Takeout, fresh sushi
+        from Samdado or peri peri chicken from Nando's, foodpanda Bangladesh has a wide range of 2000+ restaurants
+        available from Dhaka, to Chittagong through to Sylhet. From a healthy lunch to evening snacks to a hearty
+        dinner, foodpanda provides you with the means to satisfy your cravings throughout the day. Sit back and relax -
+        let foodpanda Bangladesh take the pressure off your shoulders.
+      </p>
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-box about-widget">
+            <h2 class="widget-title">About us</h2>
+            <p>FOOD DELIVERY IN DHAKA
+              Takeout-Banani, Pizza Guy, Shawarma Street , Coffeelicious Coffee-Baily Road, Time Out.<br>
+
+              FOOD DELIVERY IN CHITTAGONG
+              Barcode Cafe, Muno Cafe Bistro, Afghan Restaurant , Burgwich Town Fusion Cafe, Sadia's Kitchen.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-box get-in-touch">
+            <h2 class="widget-title">Get in Touch</h2>
+            <ul>
+              <li>34/8, East Hukupara, Gifirtok, Sadan.</li>
+              <li>support@foodpanda.com</li>
+              <li>+00 111 222 3333</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-box pages">
+            <h2 class="widget-title">Pages</h2>
+            <ul>
+              <li><a routerLink="home">Home</a></li>
+              <li><a routerLink="about">About</a></li>
+              <li><a routerLink="restaurent">Restaurent</a></li>
+              <li><a routerLink="news">News</a></li>
+              <li><a routerLink="contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-box subscribe">
+            <h2 class="widget-title">Subscribe</h2>
+            <p>Subscribe to our mailing list to get the latest updates.</p>
+            <form action="index.html">
+              <input type="email" placeholder="Email">
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end footer -->
+</div>
+<!-- <app-home></app-home> -->
+<!-- <app-cart></app-cart> -->
+<!-- <app-product></app-product> -->
